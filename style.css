@@ -1,0 +1,222 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        word-break: break-word;
+        font-family: Arial, Verdana, Helvatica, Sans-Serif;
+      }
+      
+      .container {
+        max-width: 700px;
+        border:;
+        margin: 62px auto;
+        padding: 16px;
+        z-index:;
+      }
+      
+      .events {
+        display: flex;
+        justify-content: center;
+        transition: border .3s;
+      }
+      
+      .events:hover {
+        border: 3px solid lightblue;
+        border-radius: 8px;
+      }
+      
+      input {
+        width: 100%;
+        padding: 10px 12px;
+        height: 55px;
+        outline: none;
+        border: none;
+        border: 3px solid #49cb00;
+        font-size: 1.1em;
+        border-radius: 4px 0 0 4px;
+      }
+      
+      input::placeholder {
+        font-size:;
+      }
+    
+      button {
+        word-break: normal;
+        border: none;
+        background: #49cb00;
+        padding: 10px 12px;
+        border-radius: 0 4px 4px 0;
+        color: white;
+        width: 55px;
+        font-size: 1.1em;
+      }
+      
+      div.nav-top {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        border:;
+        height:;
+        padding: 15px;
+        box-shadow: 0 2px 8px rgb(0,0,0,0.2);
+        z-index: 99999;
+        background: white;
+      }
+      
+      h1.woy {
+        font-size: 1.6em;
+        display: inline-block;
+      }
+      
+      div.navigasi {
+        position: fixed;
+        top: 56px;
+        left: 6px;
+        right: 6px;
+        height: 157px;
+        display: none;
+        background: white;
+        border-bottom: 1px solid #ddd;
+        padding: 10px;
+        border-radius: 0 0 1pc 1pc;
+      }
+      
+      div.navigasi h1 {
+        color: #49cb00;
+      }
+      
+      div.icon-humburrger, p.kon {
+        display: inline-block;
+      }
+      
+      div.icon-humburrger {
+        float: right;
+      }
+      
+      div.icon-humburrger p.kon {
+        font-size: 1.7em;
+      }
+      
+      .element-dari-dom {
+        width: 100%;
+        padding: 6px;
+      }
+      
+      .text-ctn {
+        width: 100%;
+        border:;
+        margin: 52px 0 18px 0;
+        background: #eaeaea;
+        padding: 10px;
+        border-radius: 10px;
+      }
+      
+      .pertama {
+        margin-bottom: 12px;
+        font-size: 1.6em;
+      }
+      
+      .pertama, .kedua {
+        text-align: center;
+      }
+      
+      .jarak-buat-form {
+        z-index:;
+      }
+      
+      .domEl {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin: 6px auto;
+        border: 5px solid white;
+        border-top: 5px solid lightblue;
+        border-right: 5px solid lightblue;
+        animation: loading 1s infinite;
+      }
+      
+      @keyframes loading {
+        0% {
+          transform: rotate(0deg);
+        } 
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+      
+      .aButton {
+        text-decoration: none;
+        width: 100%;
+        background: #5bab00;
+        color: white;
+        padding: 6px;
+        text-align: center;
+        display: block;
+        border-radius: 6px;
+        margin: 6px 0;
+      }
+      
+      .buat-simpen-gamabar-title {
+        width: 50%;
+        margin: 16px auto;
+        border:;
+      }
+      
+      .tks1 {
+        text-align: center;
+        font-size: 1.2em;
+        margin: 3px;
+      }
+      
+      .tks2 {
+        text-align: center;
+        font-size: 0.8em;
+      }
+      
+      .alert_woy {
+        width: 65%;
+        margin: 0 auto 16px;
+        text-align: center;
+        padding: 6px;
+        background: #ddd;
+        border-radius: 5px;
+        display: none;
+      }
+      
+      .alert_woys {
+        width: 48%;
+        margin: 0 auto 16px;
+        text-align: center;
+        padding: 6px;
+        background: #ddd;
+        border-radius: 5px;
+        display: none;
+        color: red;
+      }
+      
+     .errors {
+       color: red;
+     }
+     
+     .sp {
+       color: #49cb00;
+     }
+     
+     ul.wrapping_text {
+       border: 1px solid black;
+     }
+     
+     ul.wrapping_text li {
+       margin: 10px 0;
+       text-align: left;
+     }
+     
+     @media only screen and (min-width: 110px) and (max-width: 159px) {
+       .icon-humburrger {
+         margin-right: 40%;
+       }
+       div.navigasi {
+         top: 30%;
+       }
+}
